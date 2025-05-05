@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0077cc;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .mobile-menu {
+    display: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .logout-btn {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width: 420px) {
+    .nav-links {
+      display: none;
+    }
+
+    .mobile-menu {
+      display: block;
+    }
+    
+  }

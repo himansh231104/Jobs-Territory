@@ -1,0 +1,39 @@
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .signup-container [type="email"], [type="password"], [type="text"], [type="tel"] {
+    width: 95%;
+    padding: 10px 0 10px 10px;
+    margin: 10px 0;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  .terms {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+  }
+  
+  .signup-container .terms {
+    width: 95%;
+    height: 20px;
+    margin: 20px 0;
+  }
